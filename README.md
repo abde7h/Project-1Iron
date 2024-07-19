@@ -1,7 +1,6 @@
+# Proyecto Web
 
-# Midterm de Ironhack CIRCLE
-
-Este es un proyecto destinado a evaluar los conocimientos adquiridos en el primer módulo del bootcamp "PROGRAMACIÓN EN LENGUAJES ESTRUCTURADOS DE APLICACIONES DE GESTIÓN" impartido en Ironhack.
+Este proyecto es una página web sencilla con dos secciones principales: una página de inicio y una página de contacto que incluye un formulario. El proyecto está desarrollado utilizando HTML, CSS y JavaScript.
 
 ## Tabla de Contenidos
 
@@ -13,40 +12,26 @@ Este es un proyecto destinado a evaluar los conocimientos adquiridos en el prime
 
 ## Descripción
 
-El proyecto ha consistido en la clonación (no pixel perfect) de una página web y todas sus funcionalidades:
+Este proyecto consta de las siguientes páginas:
 
-- Contexto:
-    Este proyecto es la primera página web funcional que he creado, pues no tengo conocimientos de programación más allá de lo impartido en este bootcamp.
+- **Página de Inicio**:  
+  La página principal del sitio web que proporciona una introducción general y acceso a otras secciones.
 
-- Propósito:
-    Gracias a este proyecto, hemos podido aprender las diferencias entre un lab y el trabajo real en una web. Nos hemos enfrentado a problemas reales y aprendido a solucionarlos de manera orgánica.
-
+- **Página de Contacto**:  
+  Incluye un formulario de contacto para que los usuarios puedan enviar mensajes. El formulario está diseñado para validar los campos antes de enviar la información.
 
 ## Características
 
-- Página principal maquetada de una forma muy parecida al ejemplo dado.
-- Responsive adaptado a todas las medidas de pantalla.
-- Menú de navegación de hamburguesa, botones de regreso al inicio.
-- Formulario completo con reglas de validación.
-- Páginas auxiliares cuyo contenido se descarga de APIs externas.
+- Diseño limpio y moderno con HTML y CSS.
+- Página de contacto con formulario que incluye validación básica de datos.
+- Interactividad sencilla con JavaScript para mejorar la experiencia del usuario.
 
 ## Instalación
 
-Para clonar y modificar el proyecto, puedes hacerlo directamente desde el repositorio de Github:
+Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/FranRevi8/circle-project-ironhack.git
+1. **Clona el Repositorio**:  
+   Copia el repositorio a tu máquina local usando Git. Abre tu terminal y ejecuta el siguiente comando:
 
-```
-
-## Tecnologías Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript con node 20.14, ECMAScript 2023.
-
-## Contacto
-
-- Nombre: Francisco Revidiego
-- GitHub: [FranRevi8](https://github.com/FranRevi8)
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
