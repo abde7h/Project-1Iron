@@ -7,9 +7,8 @@ Este proyecto es una página web sencilla con dos secciones principales: una pá
 - [Descripción](#descripción)
 - [Características](#características)
 - [Instalación](#instalación)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Contacto](#contacto)
 
+- 
 ## Descripción
 
 Este proyecto consta de las siguientes páginas:
