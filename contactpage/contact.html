@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle Agency</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <link rel="icon" type="image/vnd.icon" href="../assets/favicon.webp">
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <a id="logo" class="logo" href="../index.html">
+          <img src="../assets/logos/circle.svg" alt="Logo" />
+        </a>
+        <ul class="centered-ul">
+          <li>
+            <a class="link blue-text" href="../index.html">Home</a>
+          </li>
+          <li>
+            <a class="link grey-text" href="../index.html">Projects</a>
+          </li>
+          <li>
+            <a class="link grey-text" href="../index.html">Services</a>
+          </li>
+        </ul>
+        <div id="contact-btn-nav" class="contact-btn">
+          <a class="white-text" href="../contactpage/contact.html"
+            >Contact Us</a
+          >
+        </div>
+      </nav>
+      <div id="hidden-nav">
+        <ul class="hidden-nav">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html">Projects</a></li>
+          <li><a href="../index.html">Services</a></li>
+        </ul>
+      </div>
+      <div class="burguer" id="burguer">
+        <div class="burguer-line"></div>
+        <div class="burguer-line"></div>
+        <div class="burguer-line"></div>
+      </div>
+    </header>
+    <form class="inputs-container">
+      <h1>Contact Us</h1>
+      <div class="name-div">
+        <label for="name">Full Name</label><br />
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your full name"
+          name="name"
+        />
+        <div id="name-error">
+          <p class="no-alert">Debes introducir un nombre</p>
+        </div>
+      </div>
+      <br />
+      <div class="mail-phone-div">
+        <div class="mail-div">
+          <label for="email">Email</label><br />
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            name="email"
+          />
+          <div id="mail-error">
+            <p class="no-alert">Debes introducir un e-mail</p>
+          </div>
+        </div>
+        <div class="phone-div">
+          <label for="phone">Phone</label><br />
+          <input
+            id="phone"
+            type="text"
+            placeholder="Enter your phone number"
+            name="phone"
+            maxlength="12"
+          />
+          <div id="phone-error">
+            <p class="no-alert">Debes introducir tu nº de teléfono</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="message-div">
+        <label for="message">Message</label><br />
+        <textarea
+          name="message"
+          id="message"
+          type="text"
+          placeholder="Write your message here..."
+          name="message"
+        ></textarea>
+        <div id="message-error">
+          <p class="no-alert">El mensaje debe tener al menos 5 caracteres</p>
+        </div>
+      </div>
+      <br /><br />
+      <button id="submit-btn">Submit</button>
+    </form>
+    <footer class="footer">
+      <div class="footer-text">
+        <a class="logo" href="../index.html">
+          <img src="../assets/logos/circle.svg" alt="Logo" />
+        </a>
+        <address>
+          2972 Westheimer Rd. Santa Ana,<br />
+          Illinois 85486
+        </address>
+      </div>
+      <div class="footer-links">
+        <ul class="footer-ul">
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./contact.js"></script>
+  </body>
+</html>
