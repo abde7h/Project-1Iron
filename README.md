@@ -33,5 +33,5 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
    Copia el repositorio a tu máquina local usando Git. Abre tu terminal y ejecuta el siguiente comando:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git](https://github.com/abde7h/Project-1Iron.git
+   git clone https://github.com/abde7h/Project-1Iron.git
    
